@@ -9,6 +9,7 @@ License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}.%{version}-%{mversion}.tar.gz
 # Source0-md5:	d76f2f5282dfc4a4c90dc28326d92b4b
+Patch0:		%{name}-ri_once.patch
 URL:		http://www.squirrelmail.org/
 Requires:	squirrelmail >= 1.4.6-2
 BuildArch:	noarch
@@ -26,6 +27,7 @@ Day") na stronie logowania.
 
 %prep
 %setup -q -n %{_plugin}
+%patch0 -p0
 
 %install
 rm -rf $RPM_BUILD_ROOT
