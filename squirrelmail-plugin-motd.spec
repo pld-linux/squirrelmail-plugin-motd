@@ -22,7 +22,7 @@ This plugin will allow you to place a "Message of the Day" on the
 loginscreen.
 
 %description -l pl
-Ta wtyczka pozwoli Ci zamie¶ciæ "Wiadomo¶æ Dnia" ("Message of the
+Ta wtyczka pozwala zamieszczaæ "Wiadomo¶æ Dnia" ("Message of the
 Day") na stronie logowania.
 
 %prep
