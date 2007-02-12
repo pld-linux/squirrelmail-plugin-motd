@@ -1,7 +1,7 @@
 %define		_plugin	motd
 %define		mversion	1.0.3
 Summary:	Plugin that allows MOTD on login page
-Summary(pl.UTF-8):   Wtyczka pozwalająca umieścić MOTD na stronie logowania
+Summary(pl.UTF-8):	Wtyczka pozwalająca umieścić MOTD na stronie logowania
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.2
 Release:	1
