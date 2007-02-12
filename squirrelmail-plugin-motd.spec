@@ -1,7 +1,7 @@
 %define		_plugin	motd
 %define		mversion	1.0.3
 Summary:	Plugin that allows MOTD on login page
-Summary(pl):	Wtyczka pozwalaj±ca umie¶ciæ MOTD na stronie logowania
+Summary(pl.UTF-8):   Wtyczka pozwalajÄ…ca umieÅ›ciÄ‡ MOTD na stronie logowania
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.2
 Release:	1
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This plugin will allow you to place a "Message of the Day" on the
 loginscreen.
 
-%description -l pl
-Ta wtyczka pozwala zamieszczaæ "Wiadomo¶æ Dnia" ("Message of the
+%description -l pl.UTF-8
+Ta wtyczka pozwala zamieszczaÄ‡ "WiadomoÅ›Ä‡ Dnia" ("Message of the
 Day") na stronie logowania.
 
 %prep
